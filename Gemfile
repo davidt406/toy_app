@@ -30,11 +30,11 @@ group :doc do
 end
 
 group :development, :test do
-	gem 'pg'
+	gem 'sqlite3'
 end
 
 group :production do
-	gem 'sqlite3'
+	gem 'pg'
 end
 
 # Use ActiveModel has_secure_password
